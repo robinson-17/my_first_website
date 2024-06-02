@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo HTML na prática</title>
+</head>
+<body>
+    <h1>Aprendendo HTML na prática</h1>
+    <hr />
+
+    <a id="topo"></a>
+    <ul>
+        <li><a href="#ferramentas-utilizadas">Ferramentas utilizadas;</a></li>
+        <li><a href="#inspector-elementos">Usando o Inspetor de Elementos;</a></li>
+        <li><a href="#estrutura-html">Estrutura básica do HTML;</a></li>
+        <li><a href="#tags">Falando sobre Tags;</a></li>
+        <li><a href="#atributos">Atributos básicos das Tags;</a></li>
+        <li><a href="#textos">Textos;</a></li>
+        <li><a href="#listas">Listas ordenadas e não ordenadas;</a></li>
+        <li><a href="#links">Links.</a></li>
+    </ul>
+
+    <h2 id="ferramentas-utilizadas">Ferramentas utilizadas.</h2>
+    <a href="#topo">Voltar</a>
+    <p>Neste tópico pude compreender como utilizar as ferramentas básicas para desenvolvimento HTML, como o Visual Studio Code para edição de código e o Inspetor de Elementos do navegador para depuração.</p>
+
+    <h2 id="inspector-elementos">Usando o Inspetor de Elementos.</h2>
+    <a href="#topo">Voltar</a>
+    <p>O Inspetor de Elementos do Google Chrome permite visualizar e editar o HTML e CSS de uma página web em tempo real, facilitando o desenvolvimento e depuração.</p>
+
+    <h2 id="estrutura-html">Estrutura básica do HTML.</h2>
+    <a href="#topo">Voltar</a>
+    <p>A estrutura básica de uma página HTML inclui as tags <code>&lt;!DOCTYPE html&gt;</code>, <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code> e <code>&lt;body&gt;</code>.</p>
+
+    <h2 id="tags">Falando sobre Tags.</h2>
+    <a href="#topo">Voltar</a>
+    <p>Tags são os elementos básicos do HTML. Exemplos incluem: <code>&lt;h1&gt;</code> até <code>&lt;h6&gt;</code> para cabeçalhos, <code>&lt;p&gt;</code> para parágrafos, <code>&lt;mark&gt;</code>, <code>&lt;small&gt;</code>, <code>&lt;i&gt;</code>, <code>&lt;u&gt;</code>, <code>&lt;strong&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;ul&gt;</code>, <code>&lt;li&gt;</code>, <code>&lt;a&gt;</code>, <code>&lt;hr&gt;</code>, <code>&lt;sub&gt;</code>, <code>&lt;sup&gt;</code> e <code>&lt;blockquote&gt;</code>.</p>
+
+    <h2 id="atributos">Atributos básicos das TAG's.</h2>
+<a href="#topo">Voltar</a>
+<p>Atributos comuns das tags HTML incluem:</p>
+<ul>
+    <li><code>id</code>: Define um identificador único para o elemento HTML. Pode ser usado para aplicar estilos CSS específicos ou manipular o elemento com JavaScript.</li>
+    <li><code>style</code>: Especifica estilos CSS inline para o elemento, permitindo a personalização direta de aparência.</li>
+    <li><code>class</code>: Atribui uma ou mais classes ao elemento, que podem ser utilizadas para aplicar estilos CSS em grupo ou para selecionar elementos com JavaScript.</li>
+</ul>
+<p>Atributos específicos incluem:</p>
+<ul>
+    <li><code>type</code> para <code>&lt;input&gt;</code>: Define o tipo de dado que o campo de entrada deve aceitar (por exemplo, <code>text</code>, <code>password</code>, <code>email</code>, etc.).</li>
+    <li><code>src</code> para <code>&lt;img&gt;</code>: Especifica o caminho da imagem a ser exibida pelo elemento <code>&lt;img&gt;</code>.</li>
+</ul>
+
+<h2>Textos.</h2>
+<a href="#topo">Voltar</a>
+<p>Este é um parágrafo com alguns <mark>elementos</mark> importantes para destacar;</p>
+<small>Este é um texto pequeno;</small></p>
+<p><i>Este texto está em itálico;</i></p>
+<p><u>Este texto está sublinhado;</u></p>
+<p><strong>Este texto está em negrito;</strong></p>
+<p>Este é um exemplo de <del>texto deletado</del> e de <font color="blue">texto colorido</font>;</p>
+<p>Texto com subíndice H<sub>2</sub>O e superscript E=mc<sup>2</sup>.</p>
+
+    <h2 id="listas">Listas ordenadas e não ordenadas.</h2>
+    <a href="#topo">Voltar</a>
+    <p>Listas ordenadas são criadas com a tag <code>&lt;ol&gt;</code> e listas não ordenadas com <code>&lt;ul&gt;</code>. Os itens de lista são definidos com a tag <code>&lt;li&gt;</code>.</p>
+
+      <h3>Lista Ordenada</h3>
+    <ol>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ol>
+
+    <h3>Lista Não Ordenada</h3>
+    <ul>
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+        <li>Terceiro item</li>
+    </ul>
+
+    <h2>Links.</h2>
+    <a href="#topo">Voltar</a>
+    <p>Links em HTML são usados para navegar entre páginas da web, ou para direcionar o usuário para diferentes seções de uma mesma página. A tag <code>&lt;a&gt;</code> é utilizada para criar um link, e o atributo <code>href</code> especifica o destino do link.</p>
+    <p>Por exemplo, para criar um link para o site da W3Schools, você pode usar o seguinte código:</p>
+    <pre><code>&lt;a href="https://www.w3schools.com"&gt;Visite o W3Schools&lt;/a&gt;</code></pre>
+    <p>Se você quiser que o link abra em uma nova aba, pode adicionar o atributo <code>target="_blank"</code>:</p>
+    <pre><code>&lt;a href="https://www.w3schools.com" target="_blank"&gt;Visite o W3Schools&lt;/a&gt;</code></pre>
+    <p>Além de navegar para outras páginas, os links também podem ser usados para direcionar a diferentes seções da mesma página. Isso é feito utilizando âncoras. Primeiro, adicione um atributo <code>id</code> ao elemento que você deseja que seja o destino do link:</p>
+    <pre><code>&lt;h2 id="seccao-exemplo"&gt;Seção de Exemplo&lt;/h2&gt;</code></pre>
+    <p>Em seguida, crie um link que aponta para essa âncora:</p>
+    <pre><code>&lt;a href="#seccao-exemplo"&gt;Ir para a Seção de Exemplo&lt;/a&gt;</code></pre>
+    <p>Quando o usuário clicar no link, ele será levado diretamente para a seção de exemplo na mesma página.</p>
+    <p>Essas são as funcionalidades básicas para utilizar links em uma página HTML, permitindo criar uma navegação eficiente e intuitiva.Exemplo: Para mais informações, visite a <a href="https://www.w3schools.com" target="_blank">W3Schools</a>.</p>
+
+    <h2 id="referencias">Referências.</h2>
+    <a href="#topo">Voltar</a>
+    <ul>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML Tutorial</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+        <li><a href="https://html.com/" target="_blank">HTML.com</a></li>
+        <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">Codecademy - Learn HTML</a></li>
+        <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5" target="_blank">freeCodeCamp - Basic HTML and HTML5</a></li>
+    </ul>
+
+</body>
+</html>
